@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+  <link rel="stylesheet" href="homepage.css">
+  <header>
+    <h1>Lawn Care Services</h1>
+ <div class="logo">Contact - Lawn Care</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="tips.html">Lawn Tips</a></li>
+        <li><strong>Contact</strong></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Us</h1>
+    <p>Send us a message for lawn care services.</p>
+
+    <form>
+      <fieldset>
+        <legend>Your Information</legend>
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Service Request</legend>
+
+        <label for="service">Select Service:</label><br>
+        <select id="service" name="service">
+          <option>Grass Cutting</option>
+          <option>Yard Cleanup</option>
+          <option>Other</option>
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br><br>
+
+        <label>
+          <input type="checkbox" required>
+          I agree to the privacy policy
+        </label>
+      </fieldset>
+
+      <p>Your information will not be shared.</p>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lawn Care Services</p>
+  </footer>
+</body>
+</html>
