@@ -126,7 +126,7 @@ main h1 {
 
 /* Step 3: Add hover effect for questions */
 .faq-question:hover {
-  background: #D7CCC8;             /* Use warm gray: #D7CCC8 */
+  background: #D7CCC3;             /* Use warm gray: #D7CCC8 */
 }
 
 /* Step 4: Add focus state for keyboard users */
@@ -140,8 +140,8 @@ main h1 {
 /* Step 5: Style the FAQ answers */
 .faq-answer {
   padding: 16px;                /* Use 16px */
-  background:  #FFFAF0;             /* Use cream: #FFFAF0 */
-  border-top: #D7CCC8;             /* Use 1px solid #D7CCC8 */
+  background: #FFFAF0;             /* Use cream: #FFFAF0 */
+  border-top: 1px solid #D7CCC8;             /* Use 1px solid #D7CCC8 */
 }
 
 /* ===================
@@ -155,3 +155,71 @@ main h1 {
   display: none;
 }
 
+/* ===================
+   Dark Mode Overrides
+   =================== */
+
+body.dark-mode {
+  background-color: #3E2723;
+  color: #EFEBE9;
+}
+
+body.dark-mode header {
+  background-color: #4E342E;
+}
+
+body.dark-mode nav a {
+  color: #EFEBE9;
+}
+
+body.dark-mode nav a:hover {
+  color: #FFB74D;
+}
+
+body.dark-mode h1,
+body.dark-mode h2 {
+  color: #BCAAA4;
+}
+
+body.dark-mode .faq-question {
+  background: #4E342E;
+  color: #EFEBE9;
+  border-color: #5D4037;
+}
+
+body.dark-mode .faq-question:hover {
+  background: #5D4037;
+}
+
+body.dark-mode .faq-answer {
+  background: #3E2723;
+  color: #EFEBE9;
+  border-color: #5D4037;
+}
+
+body.dark-mode .theme-toggle {
+  background: #BCAAA4;
+  color: #3E2723;
+}
+
+body.dark-mode .theme-toggle:hover {
+  background: #D7CCC8;
+}
+
+body.dark-mode footer {
+  background-color: #4E342E;
+}
+
+/* Theme toggle button styling */
+.theme-toggle {
+  background: #5D4037;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  background: #8D6E63;
+}
