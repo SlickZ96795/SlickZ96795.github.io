@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-family: Georgia, serif;
   font-size: 16px;
   line-height: 1.6;
   color: #546B41;
@@ -59,7 +59,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #8D6E63;
+  color: #B9B7A7;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
 }
